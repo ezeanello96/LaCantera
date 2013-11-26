@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">La Cantera</string>
+    <string name="action_settings">Settings</string>
+    <string name="dia">Ingrese el dia:</string>
+    <string name="hora">Ingrese la hora:</string>
+    <string name="radioFut7">Futbol 7</string>
+    <string name="radioFut5">Futbol 5</string>
+    <string name="btnBuscar">Buscar turnos</string>
+    <string name="can1">Cancha 1:</string>
+    <string name="can2">Cancha 2:</string>
+    <string name="can3">Cancha 3:</string>
+    <string name="tv4">--------------------------</string>
+    <string name="tv6">--------------------------</string>
+    <string name="tv8">--------------------------</string>
+    <string name="btnLlamar">Llamar</string>
+    <string name="btnAtras">Atras</string>
+    <string name="btnAgrturno">Agregar nuevo turno</string>
+    <string name="btnOk">OK</string>
+    <string name="tv10">Hora del nuevo turno:</string>
+    <string name="tv9">Dia del nuevo turno:</string>
+    <string name="tv11">Nombre del nuevo turno:</string>
+    <string name="tv12">Numero de cancha:</string>
+    <string name="btnBorrar">Borrar turnos</string>
+    <string name="tv_contacto">Contacto de La Cantera:</string>
+    <string name="acercaDe">Ayuda</string>
+    <string name="sal">Salir</string>
+
+</resources>

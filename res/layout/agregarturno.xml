@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/tv9" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et3"
+        android:layout_below="@+id/et3"
+        android:layout_marginTop="17dp"
+        android:text="@string/tv10" />
+
+    <Button
+        android:id="@+id/btnAtras2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnOk"
+        android:layout_alignBottom="@+id/btnOk"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="59dp"
+        android:onClick="finalizar"
+        android:text="@string/btnAtras" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tv9"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="22dp"
+        android:onClick="add"
+        android:text="@string/btnOk" />
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et5"
+        android:layout_below="@+id/et5"
+        android:layout_marginTop="23dp"
+        android:text="@string/tv12" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv11"
+        android:layout_below="@+id/tv11"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv12"
+        android:layout_below="@+id/tv12"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv10"
+        android:layout_below="@+id/tv10"
+        android:ems="10"
+        android:inputType="time" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et4"
+        android:layout_below="@+id/et4"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv11" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv9"
+        android:layout_below="@+id/tv9"
+        android:ems="10"
+        android:inputType="date" />
+
+</RelativeLayout>
